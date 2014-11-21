@@ -1,5 +1,7 @@
 FROM c3h3/oblas-py278-shogun
 
+MAINTAINER Chia-Chi Chang <c3h3.tw@gmail.com>
+
 EXPOSE 8888
 ENV IPYNB_PROFILE "c3h3-dark"
 #ENV LD_LIBRARY_PATH $LD_LIBRARY_PATH:/usr/local/lib
